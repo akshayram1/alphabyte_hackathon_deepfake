@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-{% load static %}
+
+
+{% load static %}   
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +11,8 @@
     <link rel="stylesheet" href="{% static 'css/styles.css'%}">
     <title>Deepfake Detection</title>
 </head>
+
+    
 <body>
     {% include 'nav-bar.html' %}
 
@@ -19,6 +23,7 @@
         <div class="container">
             <center><span class="text-muted" style="color: #fff;">Copyright @ {% now 'Y' %}</span></center>
         </div>
+   
     </footer>
 
     <script src="/static/js/jquery-3.4.1.min.js"></script>
@@ -27,5 +32,7 @@
     
     {% block js_cripts %}
     {% endblock %}
+
+    
 </body>
 </html>
