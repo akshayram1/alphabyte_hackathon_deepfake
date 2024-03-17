@@ -16,6 +16,10 @@ Before launching the project, ensure the following directory structure is set up
 - uploaded_images/
 - uploaded_videos/
 
+
+## Screenshots
+![a](a.jpg)
+
 ### Prerequisites
 1. Clone the repository and navigate to the Django application:
 ```bash
