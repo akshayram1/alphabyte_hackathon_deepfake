@@ -1,5 +1,4 @@
 # alphabyte_hackathaon_deepfake_detection
-# alphabyte_hackathon_deepfake
 # Deep Fake Detection Django Application
 
 ## Overview
