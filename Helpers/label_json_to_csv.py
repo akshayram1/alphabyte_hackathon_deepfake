@@ -4,11 +4,14 @@
 # In[1]:
 
 
+
+
 import pandas as pd
 
 
 # In[40]:
 
+    #print head
 
 for i in range(8):
     path_json = "F:\College\BE\Final year project\FF_Dataset\Kaggle dataset\dfdc_train_part_"+str(i)+"\metadata.json"
@@ -22,5 +25,8 @@ for i in range(8):
     read_csv = pd.read_csv(path_csv)
     read_csv.columns = ["URI","label","original","split"]
     read_csv.to_csv(path_csv,index=False)
-    print(read_csv.head(5))
+    print(read_csv.head(5))  
+
+
+
 
