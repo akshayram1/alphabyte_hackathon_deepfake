@@ -18,7 +18,9 @@ Before launching the project, ensure the following directory structure is set up
 
 
 ## Screenshots
-![a](a.jpg)
+![img1](a.jpg)
+![img2](b.jpg)
+![img3](c.jpg)
 
 ### Prerequisites
 1. Clone the repository and navigate to the Django application:
